@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+.navbar{
+    background-color: blue !important;/*the important overrides other backgrounds*/
+
+}
+
+* {
+    margin: 0;/*no default margins and padings/*/
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #cad6fe;
+    background: linear-gradient(to right, #cbe8f5, #dcb9fa);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /*to set the items in vertically*/
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+}
+/*maintains space between the form groups*/
+.container .form-group {
+    margin-bottom: 15px;
+}
+
+.container input {
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+
+.container .form-text {
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: left;
+}
+/*styles for the buttons in the form*/
+.container button {
+    background-color: rgb(243, 159, 5);
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;/*for a smooth animation*/
+}
+
+.container button:hover {
+    background-color: rgb(69, 225, 95);
+}
+
+
